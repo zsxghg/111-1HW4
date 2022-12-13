@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server"></asp:SqlDataSource>
+           
             <asp:Button ID="btn_Insert" runat="server" Text="點我新增資料" />
             <asp:GridView ID="gd_Vie" runat="server"></asp:GridView>
         </div>

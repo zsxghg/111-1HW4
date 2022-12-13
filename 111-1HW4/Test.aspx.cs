@@ -15,8 +15,10 @@ namespace _111_1HW4
         {
             string s_Conns = "";
 
-            s_Conns = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Test;" +
-                      "Integrated Security=True;Connect Timeout=30;" +
+            s_Conns = "Data Source=(localdb)\\MSSQLLocalDB;" +
+                "Initial Catalog=Test;" +
+                      "Integrated Security=True;" +
+                      "Connect Timeout=30;" +
                       "Encrypt=False;" +
                       "Trust Server Certificate=False;" +
                       "Application Intent=ReadWrite;" +
@@ -27,7 +29,10 @@ namespace _111_1HW4
             {
                 SqlConnection o_Conn = new SqlConnection(object - s_Conns);
 
-                sqlDataAd
+
+                SqlDataAdapter o_A = new SqlDataAdapter("Select * from Users", o_Conn);
+                Dataset o_D = new Dataset();
+                o_A.Fill()
             }
             catch () { 
             
