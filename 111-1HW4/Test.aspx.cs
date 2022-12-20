@@ -38,8 +38,6 @@ namespace _111_1HW4
             s_Conn.Close();
 
         }
-        }
-
-    }
+        
     }
 }
