@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Test.aspx.cs" Inherits="_111_1HW4.Test" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="test.aspx.cs" Inherits="_111_1HW4.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -10,9 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-           
-            <asp:Button ID="btn_Insert" runat="server" Text="點我新增資料" />
-            <asp:GridView ID="gd_Vie" runat="server"></asp:GridView>
+            <asp:Button ID="btn_Insert" runat="server" Text="點我新增資料" OnClick="btn_Insert_Click" />
+            <asp:GridView ID="gd_View" runat="server"></asp:GridView>
         </div>
     </form>
 </body>

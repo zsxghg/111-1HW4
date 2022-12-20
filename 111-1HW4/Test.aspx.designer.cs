@@ -11,7 +11,7 @@ namespace _111_1HW4
 {
 
 
-    public partial class Test
+    public partial class WebForm1
     {
 
         /// <summary>
@@ -33,12 +33,12 @@ namespace _111_1HW4
         protected global::System.Web.UI.WebControls.Button btn_Insert;
 
         /// <summary>
-        /// gd_Vie 控制項。
+        /// gd_View 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gd_Vie;
+        protected global::System.Web.UI.WebControls.GridView gd_View;
     }
 }
